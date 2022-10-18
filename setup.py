@@ -9,4 +9,4 @@ setup(name='clean_folder',
       author='Holovin A',
       author_email='Anton@example.com',
       license='MIT',
-      entry_points={'console_scripts': ['main_fun = clean:main_fun']})
+      entry_points={'console_scripts': ['main_fun = clean_folder.clean:main_fun']})
